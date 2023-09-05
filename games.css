@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+   font-family: 'Work Sans', sans-serif;
+}
+.header {
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    width: 80%;
+}
+nav >ul {
+    display: flex; 
+}
+nav a {
+    text-decoration: none;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.icon-title {
+    display: flex;
+    margin-left: 300px;
+    width: 40px;
+    height: 60px;
+  
+}
+.icon01 {
+width: 25px;
+height: 15px;
+margin: 25px;
+margin-right: 10px;
+}
+.t1 {
+    color: magenta;
+}
+.banner-main {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+.banner1 {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 50px;
+   
+}
+.title02 {
+    margin-bottom: 0px;
+}
+.goat {
+    color:darkorchid;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 0px;
+
+}
+.play {
+    width: 15px;
+}
+.click {
+    width: 15px;
+}
+.btn-head {
+    margin-top: 30px;
+}
+.btn1 {
+    background-color:hotpink;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 44px;
+    
+}
+.btn2 {
+    background-color:#4EC5F7;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 44px;
+    
+}
+.banner-img {
+    width: 600px;
+    height: 500px;
+}
+.main-02 {
+    display: flex;
+    margin-left: 250px;
+}
+.gamer1 {
+    color: darkmagenta;
+}
+.main-03 {
+    margin-top: 50px;
+    text-align: right;
+    
+}
+.btn03 {
+    background-color:hotpink;
+    width: 100px;
+    height: 40px;
+    border-radius: 44px;
+    color: white;
+}
+.funny {
+    color:darkmagenta ;
+}
+.funny-videos {
+    text-align: center;
+}
+.videos2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.a{
+    width: 300px;
+    height: 350px;
+}
+.b {
+    width: 300px;
+    height: 350px;  
+}
+.c {
+    width: 300px;
+    height: 350px;
+}
+.d {
+    width: 300px;
+    height: 350px;
+}
+.play2 {
+    color: darkmagenta;
+}
+.section05 {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 150px;
+}
+.p2 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.img7 {
+    width: 550px;
+    height: 600px;
+}
+.img8 {
+    width: 200px;
+    height: 250px;
+}
+.badge {
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+
+.aa {
+    margin-bottom: 10px;
+}
+.btn10 {
+    width: 210px;
+    border-radius: 40px;
+    margin: 10px;
+    border: none;
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 0px;
+}
+.btn10:hover{
+    border:1px solid blue;
+}
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color:rgb(172, 179, 241);
+    text-align: center;
+}
+.t3 {
+    color:azure ;
+}
+.icon-title2 {
+    display: flex;
+    justify-content: center;
+}
+.footer-a a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.footer-logo {
+    
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    gap: 15px;
+}
+.footer-a2 a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav1 {
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width:576px) {
+.ul {
+    flex-direction: column;
+}
+}
+
+
+@media screen and (max-width:576px) {
+    .banner-main {
+       flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .main-02 {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:576px) {
+    .videos2 {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:576px) {
+    .btn-grid{
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
